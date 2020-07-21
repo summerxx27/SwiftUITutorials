@@ -13,11 +13,13 @@ private let summerxx = "summerxx.com"
 struct TextTest: View {
     var body: some View {
         VStack(spacing: 15) {
+            
             Text("SwiftUI")
+                .foregroundColor(Color.red)
             Text("SwiftUI")
                 .foregroundColor(.orange)
                 .bold()
-                .font(.system(.largeTitle))
+                .font(.title)
                 .fontWeight(.medium)
                 .italic()
                 .shadow(color: .black, radius: 1, x: 0, y: 2)
@@ -43,6 +45,11 @@ struct TextTest: View {
 
 struct TextTest_Previews: PreviewProvider {
     static var previews: some View {
-        TextTest()
+        Group {
+            TextTest()
+                .previewDevice("iPhone 8")
+            TextTest()
+                .previewDevice("iPhone 11 Pro Max")
+        }
     }
 }
