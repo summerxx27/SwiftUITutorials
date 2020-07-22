@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B95094DA24C88ADC0037D71F /* DataFlowTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = B95094D924C88ADC0037D71F /* DataFlowTest.swift */; };
+		B95094DC24C88FF60037D71F /* DataFlowStateBindingTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = B95094DB24C88FF50037D71F /* DataFlowStateBindingTest.swift */; };
+		B95094DE24C893610037D71F /* DataFlowObservableObjectTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = B95094DD24C893610037D71F /* DataFlowObservableObjectTest.swift */; };
+		B95094E024C898030037D71F /* DataFlowEnvironmentObjectTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = B95094DF24C898030037D71F /* DataFlowEnvironmentObjectTest.swift */; };
 		B98204D324C6BAC3006E9985 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B98204D224C6BAC3006E9985 /* AppDelegate.swift */; };
 		B98204D524C6BAC3006E9985 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B98204D424C6BAC3006E9985 /* SceneDelegate.swift */; };
 		B98204D724C6BAC3006E9985 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B98204D624C6BAC3006E9985 /* ContentView.swift */; };
@@ -25,6 +29,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		B95094D924C88ADC0037D71F /* DataFlowTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataFlowTest.swift; sourceTree = "<group>"; };
+		B95094DB24C88FF50037D71F /* DataFlowStateBindingTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataFlowStateBindingTest.swift; sourceTree = "<group>"; };
+		B95094DD24C893610037D71F /* DataFlowObservableObjectTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataFlowObservableObjectTest.swift; sourceTree = "<group>"; };
+		B95094DF24C898030037D71F /* DataFlowEnvironmentObjectTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataFlowEnvironmentObjectTest.swift; sourceTree = "<group>"; };
 		B98204CF24C6BAC3006E9985 /* SwiftUIDemo02.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUIDemo02.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B98204D224C6BAC3006E9985 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B98204D424C6BAC3006E9985 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -55,6 +63,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B95094D824C88AB00037D71F /* DataFlow */ = {
+			isa = PBXGroup;
+			children = (
+				B95094D924C88ADC0037D71F /* DataFlowTest.swift */,
+				B95094DB24C88FF50037D71F /* DataFlowStateBindingTest.swift */,
+				B95094DD24C893610037D71F /* DataFlowObservableObjectTest.swift */,
+				B95094DF24C898030037D71F /* DataFlowEnvironmentObjectTest.swift */,
+			);
+			path = DataFlow;
+			sourceTree = "<group>";
+		};
 		B98204C624C6BAC3006E9985 = {
 			isa = PBXGroup;
 			children = (
@@ -99,6 +118,7 @@
 		B98204E624C6BB02006E9985 /* Example */ = {
 			isa = PBXGroup;
 			children = (
+				B95094D824C88AB00037D71F /* DataFlow */,
 				B982050024C6E0C1006E9985 /* ScrollView */,
 				B98204FD24C6D519006E9985 /* Button */,
 				B98204F824C6CFAC006E9985 /* Image */,
@@ -232,13 +252,17 @@
 				B98204D324C6BAC3006E9985 /* AppDelegate.swift in Sources */,
 				B98204FF24C6D533006E9985 /* ButtonTest.swift in Sources */,
 				B98204F424C6C50A006E9985 /* TextFieldTest.swift in Sources */,
+				B95094DC24C88FF60037D71F /* DataFlowStateBindingTest.swift in Sources */,
 				B98204F724C6C607006E9985 /* Window+Extension.swift in Sources */,
 				B98204D524C6BAC3006E9985 /* SceneDelegate.swift in Sources */,
+				B95094DE24C893610037D71F /* DataFlowObservableObjectTest.swift in Sources */,
 				B982050424C6E3A8006E9985 /* ScrollViewTest.swift in Sources */,
 				B98204F224C6C1CB006E9985 /* CustomCell.swift in Sources */,
 				B98204FC24C6D310006E9985 /* WebImageTest.swift in Sources */,
 				B98204FA24C6CFC6006E9985 /* ImageTest.swift in Sources */,
 				B982050224C6E0E3006E9985 /* ListTest.swift in Sources */,
+				B95094E024C898030037D71F /* DataFlowEnvironmentObjectTest.swift in Sources */,
+				B95094DA24C88ADC0037D71F /* DataFlowTest.swift in Sources */,
 				B98204EB24C6BBE8006E9985 /* TextTest.swift in Sources */,
 				B98204D724C6BAC3006E9985 /* ContentView.swift in Sources */,
 			);
@@ -378,8 +402,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"SwiftUIDemo02/Preview Content\"";
+				DEVELOPMENT_TEAM = 8XEUVFYSL4;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = SwiftUIDemo02/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -397,8 +423,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"SwiftUIDemo02/Preview Content\"";
+				DEVELOPMENT_TEAM = 8XEUVFYSL4;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = SwiftUIDemo02/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

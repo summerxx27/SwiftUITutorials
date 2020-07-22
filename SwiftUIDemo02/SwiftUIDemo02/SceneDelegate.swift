@@ -25,7 +25,10 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         // Use a UIHostingController as window root view controller.
         if let windowScene = scene as? UIWindowScene {
             let window = UIWindow(windowScene: windowScene)
+            // 正常使用
             window.rootViewController = UIHostingController(rootView: contentView)
+            // 测试 DataFlowEnvironmentObjectTest的时候使用
+//            window.rootViewController = UIHostingController(rootView: DataFlowEnvironmentObjectTest().environmentObject(UserSettings2()))
             self.window = window
             window.makeKeyAndVisible()
         }
