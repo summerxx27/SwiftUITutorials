@@ -31,7 +31,10 @@ struct TextTest: View {
             }
             
             HStack {
-                Text("Text")
+                Text("Title")
+                    .font(.largeTitle)
+                    .fontWeight(.light)
+                    .foregroundColor(Color(red: 1.0, green: 0.0, blue: 0.0, opacity: 1.0))
                 Text("Text.bold").bold()
                 Text("SecureField").foregroundColor(.orange)
             }

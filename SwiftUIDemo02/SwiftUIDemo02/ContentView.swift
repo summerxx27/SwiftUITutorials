@@ -41,6 +41,19 @@ struct ContentView: View {
                     NavigationLink(destination: ScrollViewTest()) {
                         CustomCell(title: "ScrollView控件演示", subTitle: "ScrollView展示")
                     }
+                    // 跳转到@State @Binding运用页
+                    NavigationLink(destination: DataFlowStateBindingTest()) {
+                        CustomCell(title: "DataFlowStateBindingTest数据流演示", subTitle: "DataFlowStateBindingTest")
+                    }
+                    // 跳转到ObservableObject运用页
+                    NavigationLink(destination: DataFlowObservableObjectTest()) {
+                        CustomCell(title: "DataFlowObservableObjectTest演示", subTitle: "DataFlowObservableObjectTest")
+                    }
+                    
+                    // 跳转到ObservableObject运用页
+                    NavigationLink(destination: DataFlowEnvironmentObjectTest()) {
+                        CustomCell(title: "DataFlowEnvironmentObjectTest演示", subTitle: "DataFlowEnvironmentObjectTest")
+                    }
                 }
                 
             }
