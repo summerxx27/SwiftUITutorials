@@ -51,7 +51,7 @@ struct ContentView: View {
                     }
                     
                     // 跳转到ObservableObject运用页
-                    NavigationLink(destination: DataFlowEnvironmentObjectTest()) {
+                    NavigationLink(destination: DataFlowEnvironmentObjectTest().environmentObject(UserSettings2())) {
                         CustomCell(title: "DataFlowEnvironmentObjectTest演示", subTitle: "DataFlowEnvironmentObjectTest")
                     }
                 }
