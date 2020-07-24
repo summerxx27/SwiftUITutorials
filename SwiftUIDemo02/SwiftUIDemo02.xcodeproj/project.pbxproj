@@ -26,6 +26,7 @@
 		B98204FF24C6D533006E9985 /* ButtonTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = B98204FE24C6D533006E9985 /* ButtonTest.swift */; };
 		B982050224C6E0E3006E9985 /* ListTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = B982050124C6E0E2006E9985 /* ListTest.swift */; };
 		B982050424C6E3A8006E9985 /* ScrollViewTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = B982050324C6E3A8006E9985 /* ScrollViewTest.swift */; };
+		B9B8CB4324C9D6D500C2CC9F /* DataFlowDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9B8CB4224C9D6D500C2CC9F /* DataFlowDetailView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -50,6 +51,7 @@
 		B98204FE24C6D533006E9985 /* ButtonTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonTest.swift; sourceTree = "<group>"; };
 		B982050124C6E0E2006E9985 /* ListTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListTest.swift; sourceTree = "<group>"; };
 		B982050324C6E3A8006E9985 /* ScrollViewTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollViewTest.swift; sourceTree = "<group>"; };
+		B9B8CB4224C9D6D500C2CC9F /* DataFlowDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataFlowDetailView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,6 +72,7 @@
 				B95094DB24C88FF50037D71F /* DataFlowStateBindingTest.swift */,
 				B95094DD24C893610037D71F /* DataFlowObservableObjectTest.swift */,
 				B95094DF24C898030037D71F /* DataFlowEnvironmentObjectTest.swift */,
+				B9B8CB4224C9D6D500C2CC9F /* DataFlowDetailView.swift */,
 			);
 			path = DataFlow;
 			sourceTree = "<group>";
@@ -258,6 +261,7 @@
 				B95094DE24C893610037D71F /* DataFlowObservableObjectTest.swift in Sources */,
 				B982050424C6E3A8006E9985 /* ScrollViewTest.swift in Sources */,
 				B98204F224C6C1CB006E9985 /* CustomCell.swift in Sources */,
+				B9B8CB4324C9D6D500C2CC9F /* DataFlowDetailView.swift in Sources */,
 				B98204FC24C6D310006E9985 /* WebImageTest.swift in Sources */,
 				B98204FA24C6CFC6006E9985 /* ImageTest.swift in Sources */,
 				B982050224C6E0E3006E9985 /* ListTest.swift in Sources */,

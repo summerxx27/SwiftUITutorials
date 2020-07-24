@@ -13,16 +13,18 @@ private let summerxx = "summerxx.com"
 struct TextTest: View {
     var body: some View {
         VStack(spacing: 15) {
-            
-            Text("SwiftUI")
-                .foregroundColor(Color.red)
-            Text("SwiftUI")
-                .foregroundColor(.orange)
-                .bold()
-                .font(.title)
-                .fontWeight(.medium)
-                .italic()
-                .shadow(color: .black, radius: 1, x: 0, y: 2)
+            ZStack{
+                
+                Text("SwiftUI-Bottom")
+                    .foregroundColor(Color.red)
+                Text("SwiftUI-Top")
+                    .foregroundColor(.orange)
+                    .bold()
+                    .font(.title)
+                    .fontWeight(.medium)
+                    .italic()
+                    .shadow(color: .black, radius: 1, x: 0, y: 2)
+            }
             
             Text(summerxx)
                 .underline(true, color: Color.gray)

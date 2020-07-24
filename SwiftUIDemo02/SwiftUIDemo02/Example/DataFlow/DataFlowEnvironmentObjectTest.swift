@@ -28,27 +28,12 @@ struct DataFlowEnvironmentObjectTest: View {
                     Text("增加人气")
                 }
                 // 跳转下一个界面
-                NavigationLink(destination: DetailView()) {
-                    Text("下一个界面")
+                NavigationLink(destination: DataFlowDetailView()) {
+                    Text("下一个界面").padding(/*@START_MENU_TOKEN@*/.all/*@END_MENU_TOKEN@*/, 20)
                 }
             }
         }
-    }
-}
-
-struct DetailView: View {
-    
-    @EnvironmentObject var settings2: UserSettings2
-    
-    var body: some View {
-        VStack {
-            Text("人气值： \(settings2.score)").font(.title).padding()
-            Button(action: {
-                self.settings2.score += 1
-            }) {
-                Text("增加人气")
-            }
-        }
+        
     }
 }
 
